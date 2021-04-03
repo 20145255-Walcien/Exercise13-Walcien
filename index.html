@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grace Bible Academy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(45deg, #5680e957, #84ceeb75, #5abaea7c, #c1c8e48f, #8760d07c);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 8px;
+    justify-content: center;
+    align-items: flex-start;
+}
+#header div {
+    flex: 50%;
+    height: auto;
+    padding: 8px;
+    display: flex;
+}
+
+#header img {
+    border-radius: 100%;
+    width: 360px;
+    height: auto;
+}
+
+#header nav {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background-color: #84ceeb;
+    align-items: center;
+}
+
+#header nav a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color:white;
+}
+
+#header nav input {
+    height: 25px;
+}
+
+#header nav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+hr {
+    height: 8px;
+    padding: 8px;
+    background-color: #023cceb6;
+    margin-bottom: 50px;
+    clear: both;
+}
+#section1 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 25pt;
+    color: #6d46b4e1;
+}
+
+#section1 img {
+    width: 100%;
+    height: auto;
+}
+
+#section2 {
+    text-align: center;
+    font-size: 18pt;
+}
+#section2 article {
+    width: 50%;
+    float: left;
+    color: #6d46b4e1;
+}
+
+#section2 img {
+    width: 100%;
+    height: 720px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+#section3 {
+    float: left;
+    text-align: center;
+    font-size: 18pt;
+    color: #6d46b4e1;
+}
+
+#section3 article {
+    width: 33.33%;
+    float: left;
+    padding: 8px;
+}
+#section3 img {
+    margin-top: 10px;
+    width: 100%;
+    height: 480px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c72b3;
+    height: 360px;
+    margin-top: 60px;
+}
+
+#footer div {
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+    background-color: #2c72b3;
+}
+
+#footer div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    #header div {
+        flex: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #section2 article, #section3 article, #footer div {
+        width: 100%;
+        flex: 100%;
+        height: auto;
+    }
+    #header img {
+        width: 240px
+    }
+    #section2 img {
+        height: 360px;
+    }
+    #footer {
+        display: unset;
+        height: 500px;
+    }
+  }
+
+  @media only screen and (max-width:528px) {
+    #section1 img {
+        height: 360px;
+    }
+    #header nav {
+        display: inline-block;
+        height:auto;
+        text-align: center;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    #header nav a {
+        font-size: 12pt;
+        padding: 5px;
+    }
+    #footer div {
+        font-size: 12pt;
+    }
+
+  }
+</style>
+</head>
+<body>
+    <header id="header">
+        <div><img src="images/GraceBible-img.jpg" alt="Grace Bible Logo"></div>
+        <div>
+            <nav>
+                <a href="Portals">Portals</a>
+                <a href="Enrollment">Enrollment</a>
+                <a href="About_GBA">About GBA</a>
+                <input type="text" placeholder="Search...">
+            </nav>
+        </div>
+    </header>
+    <section id="section1">
+        <img src="images/GBmain.jpg" alt="School Photos">
+        <h1>School of Tomorrow</h1>
+    </section>
+    <hr>
+    <section id="section2">
+        <article>
+            <h2>School Calendar</h2>
+            <img src="images/Calendar.PNG" alt="School Calendar">
+        </article>
+        <article>
+            <h2>School News/Activities</h2>
+            <img src="images/School-News.jpg" alt="School News/Activities">
+        </article>
+    </section>
+    <hr>
+    <section id="section3">
+        <h2>School Stories & Character Traits of the Week</h2>
+        <article>
+            <img src="images/School-Stories-1.jpg" alt="School Stories 1">
+            <p>Mercy is one of the many attributes of God, which we are instructed to imitate. It is one aspect of His unconditional love that we are to mirror, in our daily lives. However, He is perfect God but we are imperfect man, so how can an imperfect man imitate God's eternally perfect mercy, How can we be like Him, when we inhabit a fallen body, with a sinful nature.. which falls far short of this godly characteristic.</p>
+        </article>
+        <article>
+            <img src="images/School-Stories-2.jpg" alt="School Stories 2">
+            <p>Being meek must never be confused with being timid. A timid spirit is the exact opposite of a meek spirit! The quietness which accompanies meekness is the result of one's trust in the Lord, whereas the quietness of timidity is the result of one's lack of trust.</p>
+        </article>
+        <article>
+            <img src="images/School-Stories-3.jpg" alt="School Stories 3">
+            <p>We've always been grateful and proud of what our students accomplish and achieve.   
+            We are thankful that they are willing and available to share their talents and abilities for the honor and glory of God.</p>
+        </article>
+    </section>
+    <hr>
+    <footer id="footer">
+        <div>
+            <h4>Grace Bible Academy</h4>
+            <p>Corner Ambuclao Road and Regidor Street, Pacdal 2600 Baguio City, Philippines<br>0910 274 9400 <br>(074) 442-7079 <br> gracebibleacademy@yahoo.com.ph</p>
+        </div>
+        <div>
+            <a href="Portals">Portals</a>
+            <a href="Enrollment">Enrollment</a>   
+            <a href="About_GBA">About GBA</a> <br>
+            Contact Us: <br>
+            <a href="Facebook">Facebook</a>
+            <a href="Twitter">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
